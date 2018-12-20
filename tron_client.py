@@ -81,7 +81,7 @@ else:
     b = Moto(100,100,0,BLUE)
     a = Moto(400,400,2,RED)
 
-raw_input("Press enter to start")
+input("Press enter to start")
 soc.send(".")
 while soc.recv(1400)[-1] == "-":
     soc.sendall("-")
