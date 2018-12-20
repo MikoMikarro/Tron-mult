@@ -3,7 +3,7 @@ import sys
 import pygame,sys
 from pygame.locals import *
 from pygame.draw import line
-from string import split
+
 
 width = 500
 height = 500
